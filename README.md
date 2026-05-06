@@ -58,6 +58,24 @@ the same APK, MIMMO emits a high-confidence verdict at the top of the
 report so you don't have to join the dots yourself.
 
 ---
+## Installation
+
+### Requirements
+- Python 3.11 or higher
+```bash
+git clone https://github.com/stosempreingiro/mimmo.git
+cd mimmo
+python3 -m venv venv
+source venv/bin/activate
+pip install .
+mimmo --version
+```
+### Uninstall
+
+```bash
+pip uninstall mimmo
+```
+---
 
 ## Usage
 
